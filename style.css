@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(
+    236.85deg,
+    #161616 27.26%,
+    #161616 /*383838*cor de antes*/ 96.03%
+  );
+  font-family: "Inconsolata", monospace;
+}
+
+.container {
+  background: #d3d3d3;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 32px;
+}
+
+.perfil {
+  display: flex;
+  align-items: space-between;
+}
+
+.perfil-foto {
+  display: flex;
+  border-radius: 460px;
+  max-height: 160px;
+}
+
+.perfil > img {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 460px;
+  max-height: 150px;
+}
+
+.titulo {
+  margin-left: 15px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;*/
+  background: linear-gradient(230.65deg, #778899 27.49%, #778899 83.19%);
+  /*background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);*/
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
